@@ -2,7 +2,7 @@ package lab1_var5A;
 
 public class Burger extends Food
 {
-    private final String size;
+    private String size;
     public Burger(String size) {
         super("Бургер");
         this.size = size;
